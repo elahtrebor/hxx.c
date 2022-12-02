@@ -1,4 +1,2 @@
 #include<stdio.h>
-#define g getchar()
-main(){int c;g;while((c=g)!=EOF)printf("%02x ",c);}
-
+int main(){int c;getchar();while((c=getchar())!=EOF)printf("%02x ",c);}
